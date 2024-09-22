@@ -21,19 +21,23 @@ const TransferenciaFormulario = () => {
       <form ref={formRef} style={{ border: '1px solid #ccc', padding: '10px' }}>
         <div>
           <label>Nombre:</label>
-          <p>Diego Riquelme</p>
+          <p>Barbara Riquelme</p>
+        </div>
+        <div>
+          <label>Banco:</label>
+          <p>Estado</p>
         </div>
         <div>
           <label>Cuenta:</label>
-          <p>Corriente</p>
+          <p>Rut</p>
         </div>
         <div>
           <label>Número de Cuenta:</label>
-          <p>123123</p>
+          <p>21.748.551-7</p>
         </div>
         <div>
           <label>Email:</label>
-          <p>correo@correo.cl</p>
+          <p>riquelmebars@gmail.cl</p>
         </div>
       </form>
       <button onClick={handleCopy}>Copiar Datos</button>
